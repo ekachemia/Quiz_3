@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'PTSans';
+    src: url(../Fonts/PTSans-Regular.eot);
+    src: url(../Fonts/PTSans-Regular.ttf) format("truetype"),
+        url(../Fonts/PTSans-Regular.woff) format("woff"),
+        url(../Fonts/PTSans-Regular.woff2) format("woff2");
+}
+
+body {
+    color: white;
+    background-color: #4594e4;
+    padding-top: 50px;
+    font-family: 'PTSans';
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+caption {
+    height: 50px;
+    font-size: 20px;
+}
+
+th:nth-child(odd){
+    background-color: #2e4760;
+}
+th:nth-child(even){
+    background-color: #4ec4a2;
+}
+th{
+    color: white;
+}
+td{
+    color: #414141;
+}
+th,
+td {
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: #efeeed;
+}
+tbody>tr:nth-child(odd){
+    background-color: #ffffff;
+}
+
+
+
+
